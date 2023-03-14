@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>moviemetro</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Movie Downloading Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Movies</a></li>
+				<li><a href="#">TV Shows</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+<header>
+  <h1>Movie Downloading Website</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Movies</a></li>
+      <li><a href="#">TV Shows</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+  <form action="#" method="get">
+    <input type="text" name="search" placeholder="Search movies...">
+    <button type="submit">Search</button>
+  </form>
+<form action="#" method="get" onsubmit="showResults(event)">
+    <input type="text" name="search" placeholder="Search movies...">
+    <button type="submit">Search</button>
+  </form>
+</header>
+
+<div id="searchResults" style="display: none;">
+  <!-- Search results go here -->
+</div>
+</header>
+
+	
+	<main>
+		<section>
+			<h2>Welcome to our Movie Downloading Website</h2>
+			<p>Here you can find the latest movies and TV shows to download for free!</p>
+		</section>
+		
+		<section>
+  <h2>Movies</h2>
+  <ul>
+    <li><a href="#" onclick="downloadMovie('E:\budhwar ep 01.mp4')">Movie Title 1</a></li>
+    <li><a href="#" onclick="downloadMovie('path/to/movie/file2.mp4')">Movie Title 2</a></li>
+    <li><a href="#" onclick="downloadMovie('path/to/movie/file3.mp4')">Movie Title 3</a></li>
+    <li><a href="#" onclick="downloadMovie('path/to/movie/file4.mp4')">Movie Title 4</a></li>
+  </ul>
+</section>
+<button onclick="openWebsite(conjuring)">Go to https://www.filmyzilla.com.ph/movie/10272/The-conjuring-(2013)-hindi-dubbed.html</button>
+
+
+
+		
+		<section>
+			<h2>TV Shows</h2>
+			<ul>
+				<li><a href="#">TV Show Title 1</a></li>
+				<li><a href="#">TV Show Title 2</a></li>
+				<li><a href="#">TV Show Title 3</a></li>
+				<li><a href="#">TV Show Title 4</a></li>
+			</ul>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Movie Downloading Website. All rights reserved.</p>
+	</footer>
+</body>
+</html>
